@@ -72,22 +72,17 @@ The Passive Aggressive Classifier achieved the best performance and was selected
 fake-news-detector/
 
 ├── app.py
-
 ├── requirements.txt
-
 ├── README.md
 
 ├── data/
 
 ├── models/
-
-│ ├── fake_news_model.pkl
-
-│ └── tfidf_vectorizer.pkl
+│   ├── fake_news_model.pkl
+│   └── tfidf_vectorizer.pkl
 
 ├── notebooks/
-
-│ └── fake_news_training.ipynb
+│   └── fake_news_training.ipynb
 
 ---
 
@@ -118,4 +113,4 @@ bash id="n6pqdf" pip install -r requirements.txt streamlit run app.py
 
 # 👨‍💻 Author
 
-Shashank
+Shashank s
