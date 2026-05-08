@@ -4,7 +4,7 @@ import joblib
 # Load saved model
 model = joblib.load("models/fake_news_model.pkl")
 
-vectorizer = joblib.load("models/tfidf_vectorizer.pkl"))
+vectorizer = joblib.load("models/tfidf_vectorizer.pkl")
 
 # Title
 st.title("Fake News Detection App")
