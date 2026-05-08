@@ -2,10 +2,9 @@ import streamlit as st
 import joblib
 
 # Load saved model
-model = joblib.load("/Users/shashanks/fake-news-detector/models/fake_news_model.pkl")
+model = joblib.load("models/fake_news_model.pkl")
 
-# Load vectorizer
-vectorizer = joblib.load("/Users/shashanks/fake-news-detector/models/tfidf_vectorizer.pkl")
+vectorizer = joblib.load("models/tfidf_vectorizer.pkl"))
 
 # Title
 st.title("Fake News Detection App")
