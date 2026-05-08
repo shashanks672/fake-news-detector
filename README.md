@@ -69,6 +69,9 @@ The Passive Aggressive Classifier achieved the best performance and was selected
 
 # 📂 Project Structure
 
+## 📂 Project Structure
+
+```text
 fake-news-detector/
 
 ├── app.py
@@ -83,6 +86,7 @@ fake-news-detector/
 
 ├── notebooks/
 │   └── fake_news_training.ipynb
+```
 
 ---
 
